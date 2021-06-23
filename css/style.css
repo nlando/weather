@@ -1,0 +1,26 @@
+*{
+    text-align: center;
+}
+
+body{
+    background-image: url("../../../../../Film/San\ Francisco\ in\ May\ 2017/000089580034.jpg");
+    background-size: 50%;
+    background-repeat: inherit;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#header{
+    margin-top: 5%;
+}
+
+#info-body{
+    display: flex;
+    flex-direction: column;
+}
+
+#info{
+    border: 1px solid black;
+    border-radius: 1%;
+    width: 30%;
+    margin: 10px auto;
+}

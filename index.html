@@ -5,22 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather</title>
+    <link rel="stylesheet" href="./css/style.css">
     <script defer src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
     <script defer src="./js/script.js"></script>
 </head>
 <body>
-    <form>
-        <input type="text" placeholder="City/Place" />
+    <h1 id="header">Weather Info</h1>
+    <div id = "info-body">
+        <form>
+        <input type="text" placeholder="City" />
         <input type="submit" value="Get Weather Info" />
-    </form>
-    <h1>Weather Info</h1>
-    <dl>
-        <dt>Sunset</dt>
-        <dd id="sunset"></dd>
-        <dt>Temperature</dt>
-        <dd id="temp"></dd>
-        <dt>Wind</dt>
-        <dd id="wind"></dd>
-    </dl>
+        </form>
+        <dl id="info">
+            <dt>Sunset:</dt>
+            <dd id="sunset"></dd>
+            <dt>Temperature:</dt>
+            <dd id="temp"></dd>
+            <dt>Wind:</dt>
+            <dd id="wind"></dd>
+        </dl>
+    </div> 
 </body>
 </html>
