@@ -23,6 +23,7 @@ let seconds = "0" + date.getSeconds();
 
 let formattedTime = hours + ':' + minutes.substr(-2) + ':' + seconds.substr(-2);
 
+$('#weather').html(data.weather[0].description);
 $('#sunset').html(formattedTime);
 $('#temp').html(data.main.temp + " F");
 $('#wind').html(data.wind.speed + "mph");
